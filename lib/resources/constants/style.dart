@@ -1,7 +1,7 @@
 import 'consts.dart';
 
 class AppStyle {
-  TextStyle regular(
+  static TextStyle regular(
       {Color? color,
       String? fontfamily = AppFonts.regular,
       double? size = 14.0,
@@ -13,7 +13,7 @@ class AppStyle {
         fontWeight: fontweight);
   }
 
-  TextStyle semibold(
+  static TextStyle semibold(
       {Color? color,
       String? fontfamily = AppFonts.semibold,
       double? size = 14.0,
@@ -25,7 +25,7 @@ class AppStyle {
         fontWeight: fontweight);
   }
 
-  TextStyle bold(
+  static TextStyle bold(
       {Color? color,
       String? fontfamily = AppFonts.bold,
       double? size = 14.0,

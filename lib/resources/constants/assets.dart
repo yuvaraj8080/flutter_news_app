@@ -1,8 +1,11 @@
 class AppAssets {
   static const base = "assets/images";
 
-  static const logo = "",
-    onboarding0 = "",
-    onboarding1 = "",
-    onboarding2 = "";
+static const onboarding = "$base/onboarding";
+
+  static const logo = "assets/images/logo.png",
+
+    onboarding0 = "$base/onboarding0.png",
+    onboarding1 = "$base/onboarding1.png",
+    onboarding2 = "$base/onboarding2.png";
 }

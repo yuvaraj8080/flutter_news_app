@@ -4,6 +4,7 @@ class AppStrings {
 
   //onboarding
    static const onboardingTitle0 = "Explore Latest News";
+   static const skip = "Skip";
    static const onboardingTitle1 = "Get Notified First";
    static const onboardingTitle2 = "Save Articles";
    static const onboardingDesc0 = "Explore latest news and events happenig in the word in a minute...";

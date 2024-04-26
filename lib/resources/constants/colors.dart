@@ -9,7 +9,7 @@ class AppColors {
   static const background = Color(0xfff5f5f5);
   static const white = Color(0xffffffff);
   static const darkGrey = Color(0xffAFB4B8);
-  static const iconColor = Color(0xff1f1f1f);
+  static const icon = Color(0xff1f1f1f);
   static const sliderDot = Color(0xffAFB4B8);
   static const sliderSelectedDark = Color(0xff424242);
   static const categoryGrey = Color(0x0f556e7a);
