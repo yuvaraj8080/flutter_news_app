@@ -14,17 +14,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-    debugShowCheckedModeBanner:false,
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        fontFamily:AppFonts.regular,
-        scaffoldBackgroundColor:AppColors.background,
-        iconTheme:const IconThemeData(
-         color:AppColors.icon,
-        )
-      ),
-      getPages:AppRoute.getRoutes(),
+          appBarTheme: const AppBarTheme(
+              iconTheme: IconThemeData(color: AppColors.icon),
+              color: Colors.transparent,
+              elevation: 0.0),
+          fontFamily: AppFonts.regular,
+          scaffoldBackgroundColor: AppColors.background,
+          iconTheme: const IconThemeData(
+            color: AppColors.icon,
+          )),
+      getPages: AppRoute.getRoutes(),
     );
   }
 }
-
