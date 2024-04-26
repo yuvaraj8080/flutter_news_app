@@ -29,7 +29,12 @@ class AppStrings {
     static const emailHint = "username@gmail.com";
     static const passwordHint = "********";
     static const password = "password";
-    static const signup = "Signup";
 
+    ///SIGNUP
+    static const signup = "Signup";
+    static const name = "Enter Name";
+    static const nameHint = "Sham Dekhane";
+    static const alreadyHaveAccount = "Already have an account";
+    static const continueAsGuest = "Continue as Guest ";
 
 }

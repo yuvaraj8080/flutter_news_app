@@ -1,9 +1,11 @@
 import 'package:flutter_news_app/controller/authentication_controlller.dart';
+import 'package:flutter_news_app/controller/home_controller.dart';
 import 'package:flutter_news_app/controller/login_controller.dart';
 import 'package:flutter_news_app/controller/onboarding_controller.dart';
 import 'package:flutter_news_app/controller/signup_controller.dart';
 import 'package:flutter_news_app/controller/splash_controller.dart';
 import 'package:flutter_news_app/views/authentication_page.dart';
+import 'package:flutter_news_app/views/home_page.dart';
 import 'package:flutter_news_app/views/login_page.dart';
 import 'package:flutter_news_app/views/onboarding_page.dart';
 import 'package:flutter_news_app/views/splash_page.dart';
@@ -39,6 +41,11 @@ class AppRoute {
     GetPage(name:RouteName.signup,
         page:()=> SignupPage(),
       binding: BindingsBuilder.put(() => SignupController())
+    ),
+
+    GetPage(name:RouteName.home,
+        page:()=> const HomePage(),
+        binding:BindingsBuilder.put(() => HomeController())
     )
 
   ];

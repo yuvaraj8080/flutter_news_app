@@ -4,8 +4,14 @@ import 'package:get/get.dart';
 class LoginController extends GetxController{
   LoginController();
 
+  /// NAVIGATE TO SIGNUP PAGE
   navigateToSignup(){
     Get.toNamed(RouteName.signup);
+  }
+
+  /// NAVIGATE TO HOME PAGE
+  navigateToHome(){
+    Get.toNamed(RouteName.home);
   }
 
 }

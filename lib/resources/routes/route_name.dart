@@ -3,5 +3,6 @@ class RouteName {
       onboarding = '/onboarding',
       authentication = "/authentication",
       login = "/login",
-      signup = "/signup";
+      signup = "/signup",
+      home = "/home";
 }
